@@ -1,0 +1,28 @@
+.app__work {
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__work-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__work-gear {
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.app__work-gear_title {
+    margin: 0 4rem 0 4rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__work-title {
+        margin-bottom: 0rem;
+    }
+    
+}

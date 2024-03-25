@@ -1,0 +1,51 @@
+.app__services {
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__services-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__services-list {
+    width: 100%;
+    margin: 2rem 0;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: row;
+}
+
+.app__services-list_offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:2000px){
+    
+}
+
+@media screen and (max-width:1150px){
+    .app__services-list_offers {
+        display: inline;
+    }
+}
+
+@media screen and (max-width:650px){
+    .app__services-title {
+        margin-bottom: 0rem;
+    }
+
+    .app__services-list_items {
+        margin-bottom: 0rem;
+    }
+
+    .app__services-list {
+        margin-bottom: 0rem;
+    }
+
+    .app__serviceitem {
+        margin: 4rem 0;
+    }
+}

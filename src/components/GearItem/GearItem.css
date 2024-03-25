@@ -1,0 +1,30 @@
+.app__gearitem {
+    width: 100%;
+    margin: 6rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__gearitem-head {
+    justify-content: space-between;
+}
+
+.app__gearitem-sub {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.app__gearitem-name {
+    flex: 1;
+}
+
+.app__gearitem-dash {
+    position: static;
+    width: 150px;
+    height: 10px;
+}
+
+.app__gearitem-gear {
+
+    margin-top: 1rem;
+}

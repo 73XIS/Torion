@@ -1,0 +1,7 @@
+.app__newsletter {
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    margin-bottom: 10rem;
+}
+
